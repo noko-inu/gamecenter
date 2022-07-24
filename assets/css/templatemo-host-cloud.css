@@ -490,7 +490,7 @@ header {
 
 /* Trusted Style */
 .trusted-section {
-	padding: 30px 0px 30px 0px;
+	padding: 20px 0px 20px 0px;
 	background-color: #f7f7f7;
 }
 .trusted-section-heading {
@@ -501,7 +501,7 @@ header {
 	text-transform: uppercase;
 	font-weight: 600;
 	color: #1e1e1e;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 .trusted-item img {
 	max-width: 156px;
@@ -529,7 +529,7 @@ header {
 }
 .services-section .service-item i {
 	color: #fff;
-	background-color: #00bcd4;
+	background-color: var(--gradationPurple);
 	display: inline-block;
 	width: 100px;
 	height: 100px;

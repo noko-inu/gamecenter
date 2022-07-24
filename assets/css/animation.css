@@ -1,0 +1,13 @@
+.neon {
+  color: #FFF;       /* 文字色を白に変更 */
+  font-size: 30px;   /* 文字サイズを50pxに指定 */
+  font-family: Beon; /* ネオン風のフォントを指定(ダウンロードしたもの) */
+  animation: flash 1s infinite; /* アニメーションflashを1秒ごとに繰り返す */
+}
+
+@keyframes flash {
+  0%, 100% {
+    /* 明るく光るよう影を重ねる */
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #b8f7ff, 0 0 70px #b8f7ff, 0 0 80px #b8f7ff, 0 0 100px #b8f7ff, 0 0 150px #b8f7ff;
+  }
+}
