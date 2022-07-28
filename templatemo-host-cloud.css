@@ -35,6 +35,9 @@ p {
 a {
 	text-decoration: none!important;
 }
+a.link-text{
+	color: var(--blue) !important;
+}
 a.main-button {
 	outline: none;
 	cursor: pointer;
@@ -84,9 +87,9 @@ a.gradient-button:hover {
 	margin-bottom: 10px;
 }
 .section-heading span {
-	color: #00bcd4;
+	color: var(--pink);
 	font-size: 15px;
-	font-weight: 500;
+	font-weight: bold;
 	letter-spacing: 0.5px;
 	display: inline-block;
 	margin-top: 0px;
@@ -541,9 +544,9 @@ header {
 .services-section .service-item h4 {
 	margin-top: 35px;
 	font-size: 19px;
+	font-weight: bold;
 	color: #1e1e1e;
 	text-transform: capitalize;
-	font-weight: 500;
 	letter-spacing: 0.5px;
 	margin-bottom: 30px;
 }
@@ -784,7 +787,7 @@ footer .sub-footer a {
 
 /* About Us Page Style */
 .about-us {
-	padding: 0px 0px;
+	padding: 50px 0px;
 	background-color: #f7f7f7;
 }
 .about-us .left-image {
@@ -810,7 +813,7 @@ footer .sub-footer a {
 }
 #tabs ul {
   margin: 0;
-  padding: 0px 55px;
+  padding: 10px 20px;
 }
 #tabs ul li {
   margin-right: 40px;
@@ -833,7 +836,7 @@ footer .sub-footer a {
   border-bottom: none;
 }
 #tabs ul .ui-tabs-active a {
-  color: #00bcd4;
+  color: var(--pink);
 }
 #tabs ul .ui-tabs-active span {
   color: #1e1e1e;
@@ -850,10 +853,9 @@ footer .sub-footer a {
   margin-bottom: 0px;
 }
 
-
 /* Team Style */
 .team-section {
-	margin-top: 140px;
+	margin-top: 50px;
 }
 .team-section .section-heading {
 	text-align: center;
@@ -892,12 +894,10 @@ footer .sub-footer a {
 	color: #00bcd4;
 }
 
-
-
-
 /* Contact Us Page Style */
 .contact-us {
-	margin-top: 140px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .contact-us .contact-form {
 	margin-right: 30px;
@@ -992,6 +992,9 @@ footer .sub-footer a {
 	color: #fff;
 	margin-right: 15px;
 	font-size: 24px;
+}
+.contact-img{
+	padding: 20px 20px;
 }
 #map {
 	margin-top: 140px;
