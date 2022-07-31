@@ -106,6 +106,10 @@ a.gradient-button:hover {
 	font-size: 15px;
 }
 
+.section-heading p a{
+	color: var(--blue) !important;
+}
+
 .page-heading {
 	background-image: url(../images/otona_noko_banner.jpeg);
 	background-position: center center;
@@ -379,7 +383,7 @@ header {
 
 /* Banner Style */
 .banner {
-	background-image: url(../images/noko_half_stand_hd.png);
+	background-image: url(../images/noko_head_4k.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 300px 0px;
@@ -879,6 +883,12 @@ footer .sub-footer a {
 	background-color: #f7f7f7;
 	text-align: center;
 	padding: 30px;
+}
+.team-item .down-content a{
+	color: #1e1e1e !important;
+}
+.team-item .down-content span{
+	color: var(--pink) !important;
 }
 .team-item h4 {
 	font-size: 19px;
